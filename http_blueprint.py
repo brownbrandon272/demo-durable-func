@@ -27,4 +27,4 @@ def default_template(req: func.HttpRequest) -> func.HttpResponse:
             "Pass a name in the query string or in the request body for a" 
             " personalized response.", 
             status_code=200 
-        ) 
+        )
